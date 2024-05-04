@@ -3,5 +3,6 @@ export interface LoginResponse {
     data: {
         success: boolean;
         message: string;
+        token?: string;
     };
 }
